@@ -1,0 +1,87 @@
+
+!-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
+
+Site:Location,
+   Burbank Glendale Passadena Ap CA USA WMO=722880,     !- Location Name
+      34.20,     !- Latitude {N+ S-}
+    -118.36,     !- Longitude {W- E+}
+      -8.00,     !- Time Zone Relative to GMT {GMT+/-}
+     223.00;     !- Elevation {m}
+     
+!-   ===========  ALL OBJECTS IN CLASS: FUELFACTORS ===========
+
+! The source energy is based on TDV factors
+FuelFactors,
+    NaturalGas,              !- Existing Fuel Resource Name
+    m3,                      !- Units of Measure
+    37631000,                !- Energy per Unit Factor
+    1.092;                   !- Source Energy Factor {J/J}
+
+! The source energy is based on TDV factors
+! The CO2 factor is actually weighted demand to account for statewide diversity
+FuelFactors,
+    Electricity,             !- Existing Fuel Resource Name
+    kW,                      !- Units of Measure
+    ,                        !- Energy per Unit Factor
+    3.317,                   !- Source Energy Factor {J/J}
+    ,                        !- Source Energy Schedule Name
+    277.7778;                !- CO2 Emission Factor {g/MJ}
+    
+!-   ===========  ALL OBJECTS IN CLASS: SIZINGPERIOD:DESIGNDAY ===========
+
+SizingPeriod:DesignDay,
+    Burbank Heating,     !- Name
+    12,                      !- Month
+    21,                      !- Day of Month
+    WinterDesignDay,         !- Day Type
+    3.9,                     !- Maximum Dry-Bulb Temperature {C}
+    0,                       !- Daily Dry-Bulb Temperature Range {deltaC}
+    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
+    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                 !- Humidity Condition Type
+    3.9,                     !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+    ,                        !- Humidity Condition Day Schedule Name
+    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
+    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
+    98675.,                  !- Barometric Pressure {Pa}
+    0.8,                     !- Wind Speed {m/s}
+    330,                     !- Wind Direction {deg}
+    No,                      !- Rain Indicator
+    No,                      !- Snow Indicator
+    No,                      !- Daylight Saving Time Indicator
+    ASHRAEClearSky,          !- Solar Model Indicator
+    ,                        !- Beam Solar Day Schedule Name
+    ,                        !- Diffuse Solar Day Schedule Name
+    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+    0.0;                     !- Sky Clearness
+
+SizingPeriod:DesignDay,
+    Burbank Cooling,     !- Name
+    8,                       !- Month
+    21,                      !- Day of Month
+    SummerDesignDay,         !- Day Type
+    36.8,                    !- Maximum Dry-Bulb Temperature {C}
+    13.2,                    !- Daily Dry-Bulb Temperature Range {deltaC}
+    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
+    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                 !- Humidity Condition Type
+    20.5,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+    ,                        !- Humidity Condition Day Schedule Name
+    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
+    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
+    98675.,                  !- Barometric Pressure {Pa}
+    3.9,                     !- Wind Speed {m/s}
+    170,                     !- Wind Direction {deg}
+    No,                      !- Rain Indicator
+    No,                      !- Snow Indicator
+    No,                      !- Daylight Saving Time Indicator
+    ASHRAEClearSky,          !- Solar Model Indicator
+    ,                        !- Beam Solar Day Schedule Name
+    ,                        !- Diffuse Solar Day Schedule Name
+    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+    1.0;                     !- Sky Clearness
+    

@@ -1,0 +1,159 @@
+eplusout.eso
+eplusout.csv
+NBASEMENT,Zone Lights Electric Energy
+NEXT_TOP_ZN_1,Zone Lights Electric Energy
+NEXT_MID_ZN_1,Zone Lights Electric Energy
+NEXT_BOT_ZN_1,Zone Lights Electric Energy
+SEXT_TOP_ZN_1,Zone Lights Electric Energy
+SEXT_MID_ZN_1,Zone Lights Electric Energy
+SEXT_BOT_ZN_1,Zone Lights Electric Energy
+EEXT_TOP_ZN_1,Zone Lights Electric Energy
+EEXT_MID_ZN_1,Zone Lights Electric Energy
+EEXT_BOT_ZN_1,Zone Lights Electric Energy
+WEXT_TOP_ZN_1,Zone Lights Electric Energy
+WEXT_MID_ZN_1,Zone Lights Electric Energy
+WEXT_BOT_ZN_1,Zone Lights Electric Energy
+NCORE_TOP_ZN_1,Zone Lights Electric Energy
+NCORE_MID_ZN_1,Zone Lights Electric Energy
+NCORE_BOT_ZN_1,Zone Lights Electric Energy
+SCORE_TOP_ZN_1,Zone Lights Electric Energy
+SCORE_MID_ZN_1,Zone Lights Electric Energy
+SCORE_BOT_ZN_1,Zone Lights Electric Energy
+ECORE_TOP_ZN_1,Zone Lights Electric Energy
+ECORE_MID_ZN_1,Zone Lights Electric Energy
+ECORE_BOT_ZN_1,Zone Lights Electric Energy
+WCORE_TOP_ZN_1,Zone Lights Electric Energy
+WCORE_MID_ZN_1,Zone Lights Electric Energy
+WCORE_BOT_ZN_1,Zone Lights Electric Energy
+COOLSYS1 CHILLER1,Chiller Electric Energy
+COOLSYS1 CHILLER2,Chiller Electric Energy
+VAV_1_HEATC,Heating Coil Heating Energy
+VAV_2_HEATC,Heating Coil Heating Energy
+VAV_3_HEATC,Heating Coil Heating Energy
+VAV_5_HEATC,Heating Coil Heating Energy
+NBASEMENT VAV BOX REHEAT COIL,Heating Coil Heating Energy
+SEXT_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+NEXT_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+WEXT_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+EEXT_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+SEXT_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+NEXT_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+WEXT_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+EEXT_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+SEXT_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+NEXT_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+WEXT_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+EEXT_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+SCORE_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+NCORE_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+WCORE_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+ECORE_MID_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+SCORE_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+NCORE_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+WCORE_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+ECORE_TOP_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+SCORE_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+NCORE_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+WCORE_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+ECORE_BOT_ZN1 VAV BOX REHEAT COIL,Heating Coil Heating Energy
+VAV_3_COOLC,Cooling Coil Total Cooling Energy
+VAV_2_COOLC,Cooling Coil Total Cooling Energy
+VAV_1_COOLC,Cooling Coil Total Cooling Energy
+VAV_5_COOLC,Cooling Coil Total Cooling Energy
+VAV_1_FAN,Fan Electric Energy
+VAV_2_FAN,Fan Electric Energy
+VAV_3_FAN,Fan Electric Energy
+VAV_5_FAN,Fan Electric Energy
+HEATSYS1 BOILER,Boiler Heating Energy
+HEATSYS1 BOILER,Boiler Gas Energy
+HEATSYS1 PUMP,Pump Electric Energy
+HEATSYS1 PUMP,Pump Fluid Heat Gain Energy
+COOLSYS1 PUMP SECONDARY,Pump Electric Energy
+TOWERWATERSYS PUMP,Pump Electric Energy
+COOLSYS1 PUMP,Pump Electric Energy
+TOWERWATERSYS COOLTOWER,Cooling Tower Fan Electric Energy
+SEXT_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+NEXT_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+WEXT_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+EEXT_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+SEXT_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+NEXT_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+WEXT_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+EEXT_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+SEXT_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+NEXT_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+WEXT_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+EEXT_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+SCORE_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+NCORE_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+WCORE_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+ECORE_MID_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+SCORE_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+NCORE_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+WCORE_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+ECORE_TOP_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+SCORE_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+NCORE_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+WCORE_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+ECORE_BOT_ZN1 VAV BOX OUTLET NODE NAME,System Node Standard Density Volume Flow Rate 
+VAV_1_HEATC-VAV_1_FANNODE,System Node Standard Density Volume Flow Rate 
+VAV_2_HEATC-VAV_2_FANNODE,System Node Standard Density Volume Flow Rate 
+VAV_3_HEATC-VAV_3_FANNODE,System Node Standard Density Volume Flow Rate 
+VAV_5_HEATC-VAV_5_FANNODE,System Node Standard Density Volume Flow Rate
+SExt_Mid_ZN1_Win1,Surface Window Heat Gain Rate
+SExt_Mid_ZN1_Win1,Surface Window Heat Loss Rate
+NExt_Mid_ZN1_Win1,Surface Window Heat Gain Rate
+NExt_Mid_ZN1_Win1,Surface Window Heat Loss Rate
+WExt_Mid_ZN1_Win1,Surface Window Heat Gain Rate
+WExt_Mid_ZN1_Win1,Surface Window Heat Loss Rate
+EExt_Mid_ZN1_Win1,Surface Window Heat Gain Rate
+EExt_Mid_ZN1_Win1,Surface Window Heat Loss Rate
+SExt_Mid_ZN_1,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate
+SExt_Mid_ZN_1,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate
+NExt_Mid_ZN_1,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate
+NExt_Mid_ZN_1,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate 
+WExt_Mid_ZN_1,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate
+WExt_Mid_ZN_1,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate 
+EExt_Mid_ZN_1,Zone Predicted Sensible Load to Heating Setpoint Heat Transfer Rate
+EExt_Mid_ZN_1,Zone Predicted Sensible Load to Cooling Setpoint Heat Transfer Rate   
+SExt_Mid_ZN1_floor,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_Ceiling,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_IntWallW,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_IntWallN,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_IntWallE,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_Wall,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_Win1,Surface Inside Face Absorbed Shortwave Radiation Rate
+SExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 1
+SExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 2
+SExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 3
+NExt_Mid_ZN1_floor,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_Ceiling,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_IntWallW,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_IntWallS,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_IntWallE,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_Wall,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_Win1,Surface Inside Face Absorbed Shortwave Radiation Rate
+NExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 1
+NExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 2
+NExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 3
+EExt_Mid_ZN1_floor,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_Ceiling,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_IntWallW,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_IntWallN,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_IntWallS,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_Wall,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_Win1,Surface Inside Face Absorbed Shortwave Radiation Rate
+EExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 1
+EExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 2
+EExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 3
+WExt_Mid_ZN1_floor,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_Ceiling,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_IntWallS,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_IntWallN,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_IntWallE,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_Wall,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_Win1,Surface Inside Face Absorbed Shortwave Radiation Rate
+WExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 1
+WExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 2
+WExt_Mid_ZN1_Win1,Surface Window Total Absorbed Shortwave Radiation Rate Layer 3  
+0

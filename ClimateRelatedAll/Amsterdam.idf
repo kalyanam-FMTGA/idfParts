@@ -1,0 +1,87 @@
+!-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
+
+Site:Location,
+    Amsterdam,  !- Name
+    4.9000,                   !- Latitude {deg}
+    52.3667,                 !- Longitude {deg}
+    1.00,                   !- Time Zone {hr}
+    2.00;                   !- Elevation {m}
+    
+    
+!-   ===========  ALL OBJECTS IN CLASS: FUELFACTORS ===========
+
+! The source energy is based on TDV factors
+FuelFactors,
+    NaturalGas,              !- Existing Fuel Resource Name
+    m3,                      !- Units of Measure
+    37631000,                !- Energy per Unit Factor
+    1.092;                   !- Source Energy Factor {J/J}
+
+! The source energy is based on TDV factors
+! The CO2 factor is actually weighted demand to account for statewide diversity
+FuelFactors,
+    Electricity,             !- Existing Fuel Resource Name
+    kW,                      !- Units of Measure
+    ,                        !- Energy per Unit Factor
+    3.317,                   !- Source Energy Factor {J/J}
+    ,                        !- Source Energy Schedule Name
+    277.7778;                !- CO2 Emission Factor {g/MJ}
+    
+!-   ===========  ALL OBJECTS IN CLASS: SIZINGPERIOD:DESIGNDAY ===========
+
+SizingPeriod:DesignDay,
+    Oakland Heating,  !- Name
+    1,                       !- Month
+    21,                      !- Day of Month
+    WinterDesignDay,         !- Day Type
+    2.9,                     !- Maximum Dry-Bulb Temperature {C}
+    0,                       !- Daily Dry-Bulb Temperature Range {deltaC}
+    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
+    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                 !- Humidity Condition Type
+    2.9,                     !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+    ,                        !- Humidity Condition Day Schedule Name
+    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
+    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
+    101001.,                 !- Barometric Pressure {Pa}
+    2.2,                     !- Wind Speed {m/s}
+    50,                      !- Wind Direction {deg}
+    No,                      !- Rain Indicator
+    No,                      !- Snow Indicator
+    No,                      !- Daylight Saving Time Indicator
+    ASHRAEClearSky,          !- Solar Model Indicator
+    ,                        !- Beam Solar Day Schedule Name
+    ,                        !- Diffuse Solar Day Schedule Name
+    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+    0.0;                     !- Sky Clearness
+
+SizingPeriod:DesignDay,
+    Oakland Cooling,  !- Name
+    8,                       !- Month
+    21,                      !- Day of Month
+    SummerDesignDay,         !- Day Type
+    27.7,                    !- Maximum Dry-Bulb Temperature {C}
+    7.4,                     !- Daily Dry-Bulb Temperature Range {deltaC}
+    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
+    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                 !- Humidity Condition Type
+    18.3,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
+    ,                        !- Humidity Condition Day Schedule Name
+    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
+    ,                        !- Enthalpy at Maximum Dry-Bulb {J/kg}
+    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
+    101001.,                 !- Barometric Pressure {Pa}
+    4.9,                     !- Wind Speed {m/s}
+    290,                     !- Wind Direction {deg}
+    No,                      !- Rain Indicator
+    No,                      !- Snow Indicator
+    No,                      !- Daylight Saving Time Indicator
+    ASHRAEClearSky,          !- Solar Model Indicator
+    ,                        !- Beam Solar Day Schedule Name
+    ,                        !- Diffuse Solar Day Schedule Name
+    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
+    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
+    1.0;                     !- Sky Clearness
+    

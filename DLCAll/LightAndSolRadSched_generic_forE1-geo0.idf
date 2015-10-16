@@ -1,0 +1,1454 @@
+!-   ===========  ALL OBJECTS IN CLASS: SCHEDULE:FILE ===========
+
+Schedule:File,
+    ControlSchedule_N,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/idfparts/Shade/++CTLSCHEDFILE++.csv,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    ControlSchedule_S,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/idfparts/Shade/++CTLSCHEDFILE++.csv,  !- File Name
+    3,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    ControlSchedule_E,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/idfparts/Shade/++CTLSCHEDFILE++.csv,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    ControlSchedule_W,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/idfparts/Shade/++CTLSCHEDFILE++.csv,  !- File Name
+    4,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator            
+    
+    
+
+Schedule:File,
+    NExt_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_N.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_S.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_W.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_E.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_N.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_S.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_E.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_LIGHT_SCH,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++LPDSCHEDFILE++_W.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+   
+ Schedule:File,
+    NExt_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_N.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_S.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_W.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_E.elc,  !- File Name
+    1,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_N.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_S.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_E.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_LIGHT_SCH_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/lightscheds/++INTSHDLPDSCHEDFILE++_W.elc,  !- File Name
+    2,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	   	
+	
+	
+	
+Schedule:File,
+    SExt_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Wall_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Wall_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Wall_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Wall_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_S.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_N.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_E.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallN_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallE_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallW_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallS_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_Floor_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_Ceiling_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++SURFSCHED++_W.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+    
+Schedule:File,
+    SExt_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Wall_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Wall_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Wall_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Wall_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    13,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SCore_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_S.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NCore_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_N.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    ECore_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_E.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallN_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    9,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallE_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    10,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallW_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    14,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_IntWallS_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    11,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_Floor_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    7,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WCore_Ceiling_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/intSurfSched/++INTSHDSURFSCHED++_W.irrad,                        !- File Name
+    8,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+   
+    
+	
+Schedule:File,
+    SExt_G1_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_S.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_G2_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_S.irrad,   !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_G3_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_S.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_G4_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_S.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Shad_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_S.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G1_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_N.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G2_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_N.irrad,   !- File Name
+	2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G3_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_N.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G4_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_N.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Shad_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_N.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G1_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_E.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G2_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_E.irrad,   !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G3_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_E.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G4_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_E.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Shad_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_E.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G1_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_W.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G2_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_W.irrad,   !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G3_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_W.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G4_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_W.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Shad_SolRadSched,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++ABSSched++_W.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    SExt_G1_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_S.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_G2_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_S.irrad,   !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_G3_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_S.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_G4_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_S.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    SExt_Shad_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_S.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G1_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_N.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G2_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_N.irrad,   !- File Name
+	2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G3_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_N.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_G4_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_N.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    NExt_Shad_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_N.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G1_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_E.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G2_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_E.irrad,   !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G3_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_E.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_G4_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_E.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    EExt_Shad_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_E.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G1_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_W.irrad,   !- File Name
+    1,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G2_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_W.irrad,   !- File Name
+    2,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G3_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_W.irrad,   !- File Name
+    3,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_G4_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_W.irrad,   !- File Name
+    4,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+	
+Schedule:File,
+    WExt_Shad_SolRadSched_IntShd,          !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_W.irrad,   !- File Name
+    5,                        !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+
+Schedule:File,
+    SExt_IntShad_SolRadSched_IntShd,  !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_S.irrad,   !- File Name
+    5,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    NExt_IntShad_SolRadSched_IntShd,  !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_N.irrad,   !- File Name
+    5,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    EExt_IntShad_SolRadSched_IntShd,  !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_E.irrad,   !- File Name
+    5,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator
+    
+Schedule:File,
+    WExt_IntShad_SolRadSched_IntShd,  !- Name
+    Any Number,              !- Schedule Type Limits Name
+    /scratch/UG/FMTGA/extshd/CreateSchedules/winabs/++INTSHDABSSched++_W.irrad,   !- File Name
+    5,                       !- Column Number
+    0,                       !- Rows to Skip at Top
+    8760,                    !- Number of Hours of Data
+    Comma;                   !- Column Separator            
+
+    
+
+

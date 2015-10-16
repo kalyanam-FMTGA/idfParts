@@ -1,0 +1,7 @@
+For ext shade systems: Shad (extshd) is column nr. 5, IntShad is column nr. 3
+
+same for Luis 2 pane systems
+
+for Luis 3 pane system I1, the internal shade is column nr. 5, shade is column nr. 2
+
+For E1-geo0 (no shade), the internal shade is column nr. 5
